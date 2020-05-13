@@ -3,10 +3,10 @@
 	<name>inwidget by TCSE-cms.com</name>
 	<description>Вывод виджета instagram.com на вашем сайте</description>
 	<icon>engine/skins/images/inwidget.png</icon>
-	<version>0.2.0</version>
+	<version>0.2.1</version>
 	<dleversion>13.2</dleversion>
 	<versioncompare>greater</versioncompare>
-	<upgradeurl></upgradeurl>
+	<upgradeurl>https://online.tcse-cms.com/plugins/inwidget/check-inwidget.php</upgradeurl>
 	<filedelete>1</filedelete>
 	<needplugin></needplugin>
 	<mnotice>1</mnotice>

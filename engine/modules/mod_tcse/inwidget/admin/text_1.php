@@ -15,9 +15,11 @@ if (!defined('DATALIFEENGINE') || !defined('LOGGED_IN')) {
 <h3>Примеры виджетов</h3>
 
 <div class="alert">
-	<iframe src='/assets/inwidget/index.php?skin=modern-red' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'></iframe>	
+	<iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-red' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'></iframe>	
 
-	<iframe src='/assets/inwidget/index.php?width=100&inline=1&view=3&toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'></iframe>
+	<iframe src='/engine/modules/mod_tcse/inwidget/index.php?width=100&inline=1&view=3&toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'></iframe>
+
+	<iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-blue' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'></iframe>	
 </div>
 <div class="">
 	<div class="box-left">

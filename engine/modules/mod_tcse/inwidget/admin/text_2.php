@@ -11,15 +11,15 @@ if (!defined('DATALIFEENGINE') || !defined('LOGGED_IN')) {
     </p>
     <div class="alert alert-warning">
 	    <p>
-	    	Установите права на запись для папки <b>/assets/inwidget/cache</b>: 777
+	    	Установите права на запись для папки <b>/engine/modules/mod_tcse/inwidget/cache</b>: 777
 	    </p>
 	    <p>
-		    В папке <b>/assets/inwidget/cache</b> виджет будет хранить кэшированные данные.<br>
+		    В папке <b>/engine/modules/mod_tcse/inwidget/cache</b> виджет будет хранить кэшированные данные.<br>
 			Если для директории будут отсутствовать права на запись, вы увидите ошибку ERROR #101.
 	    </p>
     </div>
     <p>
-    	Отредактируйте файл <b>/assets/inwidget/config.php</b><br>
+    	Отредактируйте файл <b>/engine/modules/mod_tcse/inwidget/config.php</b><br>
 		Вам потребуется указать логин в Instgram и другие параметры.<br>
 		<br>
 		Список параметров:<br>
@@ -62,33 +62,33 @@ if (!defined('DATALIFEENGINE') || !defined('LOGGED_IN')) {
 <code><pre>
 
 &lt;!-- По умолчанию --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:330px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:330px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Без профиля --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Мини 1 --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?width=100&amp;inline=2&amp;view=12&amp;toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?width=100&amp;inline=2&amp;view=12&amp;toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Мини 2 --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?width=100&amp;inline=1&amp;view=3&amp;toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?width=100&amp;inline=1&amp;view=3&amp;toolbar=false' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100px;height:320px;overflow:hidden;'&gt;&lt;/iframe&gt;
 </pre></code>
 
 <h3>Разные цветовые схемы:</h3>
 <pre>
 &lt;!-- Синий --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-blue' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-blue' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Зелёный --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-green' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-green' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Красный --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-red' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-red' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Оранжевый --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-orange' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-orange' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Фиолетовый --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-violet' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-violet' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Чёрный --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-black' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-black' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Жёлтый --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-yellow' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-yellow' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;<br><br>
 &lt;!-- Серый --&gt;<br>
-&lt;iframe src='/assets/inwidget/index.php?skin=modern-grey' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;
+&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?skin=modern-grey' data-inwidget scrolling='no' frameborder='no' style='border:none;width:260px;height:315px;overflow:hidden;'&gt;&lt;/iframe&gt;
 </pre>
 
 <h3>Вывод только фото, без рамок и бейджей</h3>
@@ -99,18 +99,18 @@ if (!defined('DATALIFEENGINE') || !defined('LOGGED_IN')) {
     сама строка переменных:<br>
     index.php?adaptive=true&inline=3&view=6
 </p>
-<code>&lt;iframe src='/assets/inwidget/index.php?adaptive=true&inline=3&view=6' data-inwidget scrolling='no' frameborder='no'>&lt;/iframe>
+<code>&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?adaptive=true&inline=3&view=6' data-inwidget scrolling='no' frameborder='no'>&lt;/iframe>
 </code>
 
 <h5>Результат </h5>
-<iframe src='/assets/inwidget/index.php?adaptive=true&inline=3&view=6' data-inwidget scrolling='no' frameborder='no'></iframe>
+<iframe src='/engine/modules/mod_tcse/inwidget/index.php?adaptive=true&inline=3&view=6' data-inwidget scrolling='no' frameborder='no'></iframe>
 
 <p>
     для вывода 4 фото в ряд и 3 рядов нам необходимо написать
     в самой строке переменных:<br>
     index.php?adaptive=true&inline=4&view=12
 </p>
-<code>&lt;iframe src='/assets/inwidget/index.php?adaptive=true&inline=4&view=12' data-inwidget scrolling='no' frameborder='no'>&lt;/iframe>
+<code>&lt;iframe src='/engine/modules/mod_tcse/inwidget/index.php?adaptive=true&inline=4&view=12' data-inwidget scrolling='no' frameborder='no'>&lt;/iframe>
 </code>
 
 	
